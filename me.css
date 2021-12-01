@@ -1,3 +1,7 @@
+body{
+    background:url("../image/light-veneer.png")
+}
+
 .m-padded-mini{
     padding:0.2em !important;
 }
@@ -52,8 +56,12 @@
 .m-text-lined{
     line-height:1.8;
 }
+/*透明度*/
 .m-opacity-mini{
     opacity:0.8 !important;
+}
+.m-opacity-tiny{
+    opacity:0.6 !important;
 }
 /*display*/
 .m-inline-block{
