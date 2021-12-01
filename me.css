@@ -114,6 +114,12 @@ body{
 .m-mobile-show{
     display:none !important;
 }
+
+/*shadow*/
+.m-shadow-small{
+    -wekit-box-shadow:0 4px 8px rgba(0,0,0,0.2) !important;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2) !important;
+}
 @media screen and (max-width:768px){
     .m-mobile-hide{
         display:none !important;
@@ -124,6 +130,10 @@ body{
     .m-padded-lr-responsive{
           padding-left:0 !important;
           padding-right:0 !important;
+    }
+    .m-mobile-lr-clear{
+        padding-left:0 !important;
+        padding-right:0 !important;
     }
     .m-mobile-wide{
         width:100% !important;
